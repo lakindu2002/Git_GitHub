@@ -9,3 +9,4 @@ This is a sample repo created to test Git features.
 6. git remote add origin remoteURL : add remote repo to git project
 7. git push origin master : push to remote repo
 8. git remove fileName.fileType : removes a file
+9. git clone repoURL
