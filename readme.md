@@ -13,3 +13,4 @@ This is a sample repo created to test Git features.
 10. git branch "branch-name" - create new branch with copy of current branch
 11. git branch - list all branches in git project
 12. git checkout "branch-name" - used to checkout to the new branch.
+13. git pull REMOTEALIAS BRANCHNAME - used to pull from remote branch
