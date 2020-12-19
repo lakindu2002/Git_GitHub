@@ -1,10 +1,7 @@
-def printHello():
-    print("Hello")
+def printFruits():
+    fruits = ["apple", "banana", "cherry"]
+    for x in fruits:
+        print(x)
 
-printHello()
 
-print("Made a Change")
-
-x = 10
-
-print(x)
+printFruits()
