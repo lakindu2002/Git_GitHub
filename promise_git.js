@@ -21,3 +21,4 @@ function getData(passName) {
 }
 
 printingData();
+console.log("Function End");
