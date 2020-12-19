@@ -10,3 +10,5 @@ This is a sample repo created to test Git features.
 7. git push origin master : push to remote repo
 8. git remove fileName.fileType : removes a file
 9. git clone repoURL
+10. git branch "branch-name" - create new branch with copy of current branch
+11. git branch - list all branches in git project
