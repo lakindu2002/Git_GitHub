@@ -1,6 +1,6 @@
 const printingData = async () => {
     try {
-        const responseData = getData("GIT");
+        const responseData = await getData("GIT");
         console.log(responseData);
     }
     catch (err) {
@@ -9,6 +9,7 @@ const printingData = async () => {
 }
 
 function getData(passName) {
+    //actually fetch data from the API
     let promise = new Promise((resolve, reject) => {
         if (passName === "GIT") {
             resolve("Entered Name Correctly")
